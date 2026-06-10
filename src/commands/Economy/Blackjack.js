@@ -5,6 +5,11 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { logger } from '../../utils/logger.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
+export default {
+    data: new SlashCommandBuilder()
+        .setName('blackjack')
+        .setDescription("play a game of blackjack")
+
 // /blackjack command
 
 // Create deck
