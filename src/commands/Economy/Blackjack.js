@@ -1,3 +1,4 @@
+import { SlashCommandBuilder } from 'discord.js';
 // /blackjack command
 
 // Create deck
