@@ -1,0 +1,4 @@
+*.pyc
+bot_cfg_test.ini
+player_records_test.json
+bot_test.py
